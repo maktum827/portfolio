@@ -1,0 +1,27 @@
+**make a virtual enbvironment use these command**
+- pip install virtualenv 
+- virtualenv venv (env is a folder name)
+- source env/Scripts/activate (to activate virtual environment)
+- pip install django django-tinymce (to install django-tinymce)
+-
+- django-admin startproject django_note_project
+- cd djnago_note_projcet
+- pip freeze > requirements.txt (to create requirements.txt file) and remove everything without Django==3.2.6 django-tinymce==3.3.0 from requirements.txt
+- pip install -r requirements.txt (to install requiremnts.txt files )
+- python manage.py startapp blog (create a blog app)
+- pip install django-allauth (for authentications)
+- pip install django-allauth
+- pip install django-crispy-forms
+- pip install django-countries
+- python -m pip install django-debug-toolbar
+- pip install stripe
+- python -m pip install Pillow
+and then register app name in sitting.py and define directories and write your code 
+
+** prepare for deployment **
+- pip install python-dotenv 
+- 
+
+//for shell to active mysql
+https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
